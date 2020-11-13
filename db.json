@@ -1,0 +1,80 @@
+{
+    "mothers": [
+        {
+            "name":"aaa",
+            "article":"12441",
+            "price":"12441",
+            "chipset":"dsgs",
+            "formFactor":"12441",
+            "id": 1
+        },
+        {
+            "name":"aaa",
+            "article":"12441",
+            "price":"12441",
+            "chipset":"dsgs",
+            "formFactor":"12441",
+            "id": 2
+        },
+        {
+            "name":"aaa",
+            "article":"12441",
+            "price":"12441",
+            "chipset":"dsgs",
+            "formFactor":"12441",
+            "id": 3
+        }
+    ],
+    "videos": [
+        {
+            "name":"aaa",
+            "article":"12441",
+            "price":"12441",
+            "v":"12441",
+            "id": 1
+        },
+        {
+            "name":"aaa",
+            "article":"12441",
+            "price":"12441",
+            "v":"12441",
+            "id": 2
+        },
+        {
+            "name":"aaa",
+            "article":"12441",
+            "price":"12441",
+            "v":"12441",
+            "id": 3
+        }
+    ],
+    "sounds": [
+        {
+            "name":"aaa",
+            "article":"12441",
+            "price":"12441",
+            "chipset":"dsgs",
+            "cores":"12441",
+            "count":"12441",
+            "id": 1
+        },
+        {
+            "name":"aaa",
+            "article":"12441",
+            "price":"12441",
+            "chipset":"dsgs",
+            "cores":"12441",
+            "count":"12441",
+            "id": 2
+        },
+        {
+            "name":"aaa",
+            "article":"12441",
+            "price":"12441",
+            "chipset":"dsgs",
+            "cores":"12441",
+            "count":"12441",
+            "id": 3
+        }
+    ]
+}
