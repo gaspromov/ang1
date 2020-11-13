@@ -1,7 +1,20 @@
-<ul class="list-group list-group-flush" *ngFor="let video of videos" >
-    <li class="list-group-item">Name: {{video.name}}</li>
-    <li class="list-group-item">Article: {{video.article}}</li>
-    <li class="list-group-item">Price: {{video.price}}</li>
-    <li class="list-group-item">Form Factor: {{video.formFactor}}</li>
-    <p> </p>
-</ul>
+<div class="row mb-3 mt-3 mr-2" *ngFor="let video of videos" >
+    <div class="col-1">
+        Name: {{video.name}} 
+    </div>
+    <div class="col-1">
+        Article: {{video.article}}
+    </div>
+    <div class="col-1">
+        Price: {{video.price}}
+    </div>  
+    <div class="col-1.5">
+        Version: {{video.v}}
+    </div>
+    <div class="col-1">
+        Count: {{video.count}}
+    </div>
+    <div class="col-0.1 mr-2"><button class="btn btn-sm btn btn-success"> + </button></div>
+    <div class="col-0.1"><button class="btn btn-sm btn btn-danger"> - </button></div>
+    <div class="col-2"><button class="btn btn-sm btn-outline-dark">Редактировать</button></div>
+</div>
