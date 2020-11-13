@@ -6,6 +6,7 @@
             "price":"12441",
             "chipset":"dsgs",
             "formFactor":"12441",
+            "count": "11",
             "id": 1
         },
         {
@@ -14,6 +15,7 @@
             "price":"12441",
             "chipset":"dsgs",
             "formFactor":"12441",
+            "count": "15",
             "id": 2
         },
         {
@@ -22,6 +24,7 @@
             "price":"12441",
             "chipset":"dsgs",
             "formFactor":"12441",
+            "count": "14",
             "id": 3
         }
     ],
@@ -31,6 +34,7 @@
             "article":"12441",
             "price":"12441",
             "v":"12441",
+            "count":"13",
             "id": 1
         },
         {
@@ -38,6 +42,7 @@
             "article":"12441",
             "price":"12441",
             "v":"12441",
+            "count":"18",
             "id": 2
         },
         {
@@ -45,6 +50,7 @@
             "article":"12441",
             "price":"12441",
             "v":"12441",
+            "count":"6",
             "id": 3
         }
     ],
@@ -55,7 +61,7 @@
             "price":"12441",
             "chipset":"dsgs",
             "cores":"12441",
-            "count":"12441",
+            "count":"7",
             "id": 1
         },
         {
@@ -64,7 +70,7 @@
             "price":"12441",
             "chipset":"dsgs",
             "cores":"12441",
-            "count":"12441",
+            "count":"5",
             "id": 2
         },
         {
@@ -73,7 +79,7 @@
             "price":"12441",
             "chipset":"dsgs",
             "cores":"12441",
-            "count":"12441",
+            "count":"10",
             "id": 3
         }
     ]

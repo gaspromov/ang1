@@ -1,9 +1,26 @@
-<ul class="list-group list-group-flush" *ngFor="let mother of mothers" >
-    <li class="list-group-item">Name: {{mother.name}}</li>
-    <li class="list-group-item">Article: {{mother.article}}</li>
-    <li class="list-group-item">Price: {{mother.price}}</li>
-    <li class="list-group-item">Form Factor: {{mother.formFactor}}</li>
-    <p> </p>
-</ul>
+<div class="row mb-3 mt-3" *ngFor="let mother of mothers" >
+    <div class="col-1">
+        Name: {{mother.name}} 
+    </div>
+    <div class="col-1">
+        Article: {{mother.article}}
+    </div>
+    <div class="col-1">
+        Price: {{mother.price}}
+    </div>  
+    <div class="col-1">
+        Chipset: {{mother.chipset}}
+    </div>
+    <div class="col-1.5">
+        FormFactor: {{mother.formFactor}}
+    </div>
+    <div class="col-1">
+        Count: {{mother.count}}
+    </div>
+    <div class="col-0.1 mr-2"><button class="btn btn-sm btn btn-success"> + </button></div>
+    <div class="col-0.1"><button class="btn btn-sm btn btn-danger"> - </button></div>
+    <div class="col-2"><button class="btn btn-sm btn-outline-dark">Редактировать</button></div>
+</div>
+
 
 

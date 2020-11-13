@@ -1,7 +1,23 @@
-<ul class="list-inline list-inline-flush" *ngFor="let sound of sounds" >
-    <li class="list-inline-item">Name: {{sound.name}}</li>
-    <li class="list-inline-item">Article: {{sound.article}}</li>
-    <li class="list-inline-item">Price: {{sound.price}}</li>
-    <li class="list-inline-item">Form Factor: {{sound.formFactor}}</li>
-    <p> </p>
-</ul>
+<div class="row mb-3 mt-3" *ngFor="let sound of sounds" >
+    <div class="col-1">
+        Name: {{sound.name}} 
+    </div>
+    <div class="col-1">
+        Article: {{sound.article}}
+    </div>
+    <div class="col-1">
+        Price: {{sound.price}}
+    </div>  
+    <div class="col-1">
+        Chipset: {{sound.chipset}}
+    </div>
+    <div class="col-1">
+        Cores: {{sound.cores}}
+    </div>
+    <div class="col-1">
+        Count: {{sound.count}}
+    </div>
+    <div class="col-0.1 mr-2"><button class="btn btn-sm btn btn-success"> + </button></div>
+    <div class="col-0.1"><button class="btn btn-sm btn btn-danger"> - </button></div>
+    <div class="col-2"><button class="btn btn-sm btn-outline-dark">Редактировать</button></div>
+</div>
